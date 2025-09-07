@@ -7,8 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 7
-        ArmorPiercing: 5
+        Piercing: 12
 
 - type: entity
   id: BulletPistol57x28Uranium
@@ -20,8 +19,7 @@
     damage:
       types:
         Radiation: 2
-        Piercing: 7
-        ArmorPiercing: 3
+        Piercing: 10
 
 - type: entity
   id: BulletPistol57x28Practice
@@ -43,7 +41,7 @@
   - type: Projectile
     damage:
       types:
-        ArmorPiercing: 2
+        Piercing: 2
         Heat: 8
 
 - type: entity
@@ -161,8 +159,7 @@
   - type: Projectile
     damage:
       types:
-        ArmorPiercing: 15
-        Piercing: 20
+        Piercing: 35
         Slash: 10
 
 - type: entity
@@ -211,8 +208,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 15
-        ArmorPiercing: 15
+        Piercing: 30
 
 - type: entity
   id: BulletRevolver357Magnum
@@ -235,9 +231,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 15
+        Piercing: 35
         Slash: 20
-        ArmorPiercing: 20
 
 - type: entity
   id: BulletRevolver38SpecialAP
@@ -248,8 +243,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
-        ArmorPiercing: 30
+        Piercing: 40
 
 - type: entity
   id: BulletRevolver357MagnumAP
@@ -260,9 +254,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 30
         Slash: 30
-        ArmorPiercing: 20
 
 - type: entity
   id: BulletRevolver44MagnumAP
@@ -273,6 +266,5 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 50
         Slash: 20
-        ArmorPiercing: 40

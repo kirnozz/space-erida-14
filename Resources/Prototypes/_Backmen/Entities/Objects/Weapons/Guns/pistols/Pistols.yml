@@ -382,65 +382,65 @@
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
 
-- type: entity
-  name: Divet
-  parent: BaseWeaponPistol
-  id: WeaponPistolDivet
-  description: The Divet is a standard sidearm for police and security personnel of the Earth Goverment.
-  components:
-  - type: Sprite
-    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/divet.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/divet.rsi
-  - type: ChamberMagazineAmmoProvider
-    autoEject: true
-    soundAutoEject: /Audio/Backmen/Misc/empty_alarm.ogg
-    boltClosed: null
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol345
-        insertSound: /Audio/Weapons/Guns64/Pistols/divet_magin.ogg
-        ejectSound: /Audio/Weapons/Guns64/Pistols/divet_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistolEGov
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeMagnum345
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMagnum345
-  - type: Gun
-    fireRate: 3
-    cameraRecoilScalar: 0.5
-    soundEmpty: /Audio/Backmen/Misc/error.ogg
-    soundGunshot:
-      path: /Audio/Weapons/Guns64/Pistols/divet_fire.ogg
-      params:
-        volume: -10
+#- type: entity
+#  name: Divet
+#  parent: BaseWeaponPistol
+#  id: WeaponPistolDivet
+#  description: The Divet is a standard sidearm for police and security personnel of the Earth Goverment.
+#  components:
+#  - type: Sprite
+#    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/divet.rsi
+#    layers:
+#    - state: base
+#      map: ["enum.GunVisualLayers.Base"]
+#    - state: mag-0
+#      map: ["enum.GunVisualLayers.Mag"]
+#  - type: Clothing
+#    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/divet.rsi
+#  - type: ChamberMagazineAmmoProvider
+#    autoEject: true
+#    soundAutoEject: /Audio/Backmen/Misc/empty_alarm.ogg
+#    boltClosed: null
+#  - type: ItemSlots
+#    slots:
+#      gun_magazine:
+#        name: Magazine
+#        startingItem: MagazinePistol345
+#        insertSound: /Audio/Weapons/Guns64/Pistols/divet_magin.ogg
+#        ejectSound: /Audio/Weapons/Guns64/Pistols/divet_magout.ogg
+#        priority: 2
+#        whitelist:
+#          tags:
+#            - MagazinePistolEGov
+#      gun_chamber:
+#        name: Chamber
+#        startingItem: CartridgeMagnum345
+#        priority: 1
+#        whitelist:
+#          tags:
+#            - CartridgeMagnum345
+#  - type: Gun
+#    fireRate: 3
+#    cameraRecoilScalar: 0.5
+#    soundEmpty: /Audio/Backmen/Misc/error.ogg
+#    soundGunshot:
+#      path: /Audio/Weapons/Guns64/Pistols/divet_fire.ogg
+#      params:
+#        volume: -10
 
-- type: entity
-  parent: WeaponPistolDivet
-  id: WeaponPistolDivet2
-  components:
-  - type: Sprite
-    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/prentor.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/prentor.rsi
+#- type: entity
+#  parent: WeaponPistolDivet
+#  id: WeaponPistolDivet2
+#  components:
+#  - type: Sprite
+#    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/prentor.rsi
+#    layers:
+#    - state: base
+#      map: ["enum.GunVisualLayers.Base"]
+#    - state: mag-0
+#      map: ["enum.GunVisualLayers.Mag"]
+#  - type: Clothing
+#    sprite: Backmen/Objects/Weapons/Gunsx64/Pistols/prentor.rsi
 
 - type: entity
   name: UCS
