@@ -1128,6 +1128,16 @@
   - EmergencyOxygenSecurity
   - LoadoutSpeciesVoxNitrogen
 
+- type: loadoutGroup #Backmen
+  id: SecurityPocket
+  name: loadout-group-security-pocket
+  loadouts:
+  - LoadoutWeaponPistolMk58
+  - LoadoutWeaponPistolG22
+  - LoadoutWeaponPistolACP14
+  - LoadoutWeaponPistolG23
+  - LoadoutWeaponPistolM1911
+
 - type: loadoutGroup
   id: SecurityStar
   name: loadout-group-security-star

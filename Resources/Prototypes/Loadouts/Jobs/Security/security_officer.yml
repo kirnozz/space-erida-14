@@ -159,6 +159,69 @@
   equipment:
     id: SeniorOfficerPDA
 
+# Pocket #Backmen
+- type: loadout
+  id: LoadoutWeaponPistolG22
+  dummyEntity: WeaponPistolG22
+  storage:
+    back:
+    - WeaponPistolG22
+    - MagazinePistol9x17
+
+- type: loadout
+  id: LoadoutWeaponPistolACP14
+  dummyEntity: WeaponPistolACP14
+  storage:
+    back:
+    - WeaponPistolACP14
+    - MagazinePistol45ACP
+
+- type: loadout
+  id: LoadoutWeaponPistolG23
+  dummyEntity: WeaponPistolG23
+  storage:
+    back:
+    - WeaponPistolG23
+    - MagazinePistol9x17
+
+- type: loadout
+  id: LoadoutWeaponPistolVP78
+  dummyEntity: WeaponPistolVP78
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  storage:
+    back:
+    - WeaponPistolVP78
+    - MagazinePistol57x28Extd
+
+- type: loadout
+  id: LoadoutWeaponPistolDEagle
+  dummyEntity: WeaponPistolDEagle
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  storage:
+    back:
+    - WeaponPistolDEagle
+    - MagazinePistol50AE
+
+- type: loadout
+  id: LoadoutWeaponPistolM1911
+  dummyEntity: WeaponPistolM1911
+  storage:
+    back:
+    - WeaponPistolM1911
+    - MagazinePistol57x28
+
+- type: loadout
+  id: LoadoutWeaponPistolMk58
+  dummyEntity: WeaponPistolMk58
+  storage:
+    back:
+    - WeaponPistolMk58
+    - MagazinePistol9x17
+
 # Misc
 - type: loadout
   id: SecStar

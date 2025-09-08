@@ -445,6 +445,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityPocket #Backmen
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -463,6 +464,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - SecurityPocket #Backmen
 
 - type: roleLoadout
   id: JobDetective
@@ -493,6 +495,7 @@
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathToolSecurity
+  - SecurityPocket #Backmen
 
 # Medical
 - type: roleLoadout
